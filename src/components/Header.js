@@ -3,8 +3,8 @@ import React from 'react';
 const Header = () => {
     return (
         <div className='header'>
-            <h1 className='header-title'>Call a Friend</h1>
-            <h5 className='header-subtitle'>Your friendly contact app</h5>
+            <h1 className='header-title'>call a friend</h1>
+            <h5 className='header-subtitle'>your friendly contact app</h5>
         </div>
     )
 }

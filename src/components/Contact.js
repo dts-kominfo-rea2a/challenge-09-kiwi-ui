@@ -6,7 +6,7 @@ const Contact = ({ props }) => {
     return (
         <>
         <div className='card'>
-            <img src='https://placekitten.com/200/200' alt='ini foto kucing' className='contact-image'></img>        
+            <img src={props.photo} alt='ini foto kucing' className='contact-image'></img>        
                 <div className='contact-info'>
                     <h3 className='contact-name'>{props.name}</h3>
                     <h3 className='contact-phone'>{props.phone}</h3>
